@@ -1,13 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { createGlobalStyle } from 'styled-components';
 
-import Component1 from './component1';
+import GlobalStyle from './GlobalStyle';
 
 const App = () => (
-  <div>
-    An empty react app<br/>
-    webpack + babel
-    <Component1 />
-  </div>
+  <>
+    <GlobalStyle />
+    Video feed empty.
+  </>
 );
 export default App;

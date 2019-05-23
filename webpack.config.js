@@ -11,8 +11,6 @@ module.exports = {
   },
   resolve: {
     alias: {
-      helpers: path.resolve(__dirname, 'src/ui/helpers/'),
-      model: path.resolve(__dirname, 'src/api/model/'),
       assets: path.resolve(__dirname, 'src/assets/'),
     },
   },
