@@ -4,6 +4,13 @@ exports[`snapshots renders correclty 1`] = `
 <Fragment>
   <GlobalStyleComponent />
   <Menu />
-  Video feed empty.
+  <Videos>
+    <Video
+      title="Be a winner!"
+    />
+    <Video
+      title="How to prepare a great beer"
+    />
+  </Videos>
 </Fragment>
 `;

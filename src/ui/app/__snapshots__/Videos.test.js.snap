@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots renders correctly 1`] = `
+@media screen and (max-width:1199px) {
+  .c0 {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c0 {
+    padding: 2rem 4rem;
+  }
+}
+
+<Videos>
+  <styled.main>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  @media screen and (max-width: 1199px) {
+    padding: 2rem 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 2rem 4rem;
+  }
+",
+            ],
+          },
+          "displayName": "styled.main",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "main",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <main
+        className="c0"
+      >
+        videos list
+      </main>
+    </StyledComponent>
+  </styled.main>
+</Videos>
+`;
