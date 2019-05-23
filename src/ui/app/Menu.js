@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Nav = styled.nav`
+const Nav = styled.nav.attrs({
+  className: 'menu',
+})`
   display: flex;
   justify-content: center;
   background-color: #fafafa;

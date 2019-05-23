@@ -3,8 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 
 import GlobalStyle from './GlobalStyle';
 import Menu from './Menu';
-import Video from './Video';
 import Videos from './Videos';
+import Video from './Video';
 
 const App = () => (
   <>
