@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const Main = styled.main`
+const Main = styled.main.attrs({
+  className: 'videos',
+})`
   @media screen and (max-width: 1199px) {
     padding: 2rem 0;
   }

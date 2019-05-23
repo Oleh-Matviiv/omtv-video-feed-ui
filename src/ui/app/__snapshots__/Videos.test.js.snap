@@ -19,7 +19,11 @@ exports[`snapshots renders correctly 1`] = `
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
+          "attrs": Array [
+            Object {
+              "className": "videos",
+            },
+          ],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": true,
@@ -48,7 +52,7 @@ exports[`snapshots renders correctly 1`] = `
       forwardedRef={null}
     >
       <main
-        className="c0"
+        className="videos c0"
       >
         videos list
       </main>

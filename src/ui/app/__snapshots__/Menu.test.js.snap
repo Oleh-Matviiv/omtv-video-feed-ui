@@ -22,7 +22,11 @@ exports[`snapshots renders correclty 1`] = `
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
+          "attrs": Array [
+            Object {
+              "className": "menu",
+            },
+          ],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": true,
@@ -51,7 +55,7 @@ exports[`snapshots renders correclty 1`] = `
       forwardedRef={null}
     >
       <nav
-        className="c0"
+        className="menu c0"
       >
         VIDEO FEED
       </nav>
