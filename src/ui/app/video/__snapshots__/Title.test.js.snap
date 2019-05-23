@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Title 1`] = `
+.c0 {
+  padding: 1rem;
+  grid-area: "title";
+}
+
+<styled.div>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [
+          Object {
+            "className": "video-title",
+          },
+        ],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  padding: 1rem;
+  grid-area: \\"title\\";
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <div
+      className="video-title c0"
+    >
+      title
+    </div>
+  </StyledComponent>
+</styled.div>
+`;

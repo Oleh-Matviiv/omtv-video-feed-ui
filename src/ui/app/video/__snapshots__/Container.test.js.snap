@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Container 1`] = `
+.c0 {
+  border: .1rem solid #efefef;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-areas: "title views" "play play";
+}
+
+<styled.article>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [
+          Object {
+            "className": "video",
+          },
+        ],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  border: .1rem solid #efefef;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-areas: \\"title views\\"
+                       \\"play play\\";
+",
+          ],
+        },
+        "displayName": "styled.article",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "article",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <article
+      className="video c0"
+    >
+      children
+    </article>
+  </StyledComponent>
+</styled.article>
+`;
