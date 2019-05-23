@@ -2,12 +2,12 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import Play from './Play';
+import Url from './Url';
 
 describe('snapshots', () => {
-  it('Play', () => {
+  it('Title', () => {
     const wrapper = mount(
-      <Play>children</Play>
+      <Url src="http://g.com/1.mp4" />
     );
 
     expect(wrapper).toMatchSnapshot();

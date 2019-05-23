@@ -13,9 +13,8 @@ const App = () => (
     <Videos>
       <Video
         title="Be a winner!"
-      />
-      <Video
-        title="How to prepare a great beer"
+        source="url"
+        video="http://cdn.playbuzz.com/content/feed/video-1.mp4"
       />
     </Videos>
   </>

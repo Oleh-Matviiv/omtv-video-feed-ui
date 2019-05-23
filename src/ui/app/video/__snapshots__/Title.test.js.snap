@@ -3,7 +3,7 @@
 exports[`snapshots Title 1`] = `
 .c0 {
   padding: 1rem;
-  grid-area: "title";
+  grid-area: title;
 }
 
 <styled.div>
@@ -23,7 +23,7 @@ exports[`snapshots Title 1`] = `
           "rules": Array [
             "
   padding: 1rem;
-  grid-area: \\"title\\";
+  grid-area: title;
 ",
           ],
         },

@@ -6,10 +6,9 @@ exports[`snapshots renders correclty 1`] = `
   <Menu />
   <Videos>
     <Video
+      source="url"
       title="Be a winner!"
-    />
-    <Video
-      title="How to prepare a great beer"
+      video="http://cdn.playbuzz.com/content/feed/video-1.mp4"
     />
   </Videos>
 </Fragment>

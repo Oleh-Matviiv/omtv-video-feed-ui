@@ -1,10 +1,11 @@
-[%] refactor video component
-[-] play component for url based video
+[%] properly format number of views, show nothing if views is missing info
 [-] play component for youtube video
 [-] play component for facebook video
 
 ----------------------------------------[done]---------------------------------
 
+[done] play component for url based video
+[done] refactor video component
 [done] video item component
 [done] videos list component
 [done] short readme

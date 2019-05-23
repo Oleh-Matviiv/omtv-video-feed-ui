@@ -5,7 +5,7 @@ const Views = styled.div.attrs({
   className: 'video-views',
 })`
   padding: 1rem;
-  grid-area: "views";
+  grid-area: views;
   text-align: right;
 `;
 

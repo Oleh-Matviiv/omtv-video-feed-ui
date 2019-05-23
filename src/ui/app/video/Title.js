@@ -5,7 +5,7 @@ const Title = styled.div.attrs({
   className: 'video-title',
 })`
   padding: 1rem;
-  grid-area: "title";
+  grid-area: title;
 `;
 
 export default Title;

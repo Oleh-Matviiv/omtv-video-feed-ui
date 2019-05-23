@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Title 1`] = `
+.c0 {
+  grid-area: play;
+}
+
+<Url
+  src="http://g.com/1.mp4"
+>
+  <styled.video
+    controls={true}
+    src="http://g.com/1.mp4"
+    width="100%"
+  >
+    <StyledComponent
+      controls={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "className": "video-play",
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  grid-area: play;
+",
+            ],
+          },
+          "displayName": "styled.video",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "video",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      src="http://g.com/1.mp4"
+      width="100%"
+    >
+      <video
+        className="video-play c0"
+        controls={true}
+        src="http://g.com/1.mp4"
+        width="100%"
+      >
+        Your browser doesn't support HTML5 video.
+      </video>
+    </StyledComponent>
+  </styled.video>
+</Url>
+`;

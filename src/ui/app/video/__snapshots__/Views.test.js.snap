@@ -3,7 +3,7 @@
 exports[`snapshots Views 1`] = `
 .c0 {
   padding: 1rem;
-  grid-area: "views";
+  grid-area: views;
   text-align: right;
 }
 
@@ -24,7 +24,7 @@ exports[`snapshots Views 1`] = `
           "rules": Array [
             "
   padding: 1rem;
-  grid-area: \\"views\\";
+  grid-area: views;
   text-align: right;
 ",
           ],

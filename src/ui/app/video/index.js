@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import Container from './Container';
 import Title from './Title';
 import Views from './Views';
-import Play from './Play';
+import Url from './Url';
 
 const Video = ({
   title = '',
@@ -17,7 +17,9 @@ const Video = ({
   <Container>
     <Title>{ title }</Title>
     <Views>{ views }</Views>
-    <Play>{ video }</Play>
+    { source === "url" && (
+      <Url src={ video } />
+    ) }
   </Container>
 );
 

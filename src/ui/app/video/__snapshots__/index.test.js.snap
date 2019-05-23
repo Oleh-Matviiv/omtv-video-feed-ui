@@ -8,9 +8,6 @@ exports[`snapshots Video facebook 1`] = `
   <styled.div>
     56789
   </styled.div>
-  <styled.div>
-    F34fdvsf43
-  </styled.div>
 </styled.article>
 `;
 
@@ -22,9 +19,9 @@ exports[`snapshots Video url 1`] = `
   <styled.div>
     3445
   </styled.div>
-  <styled.div>
-    http://g.com/1.mp4
-  </styled.div>
+  <Url
+    src="http://g.com/1.mp4"
+  />
 </styled.article>
 `;
 
@@ -35,9 +32,6 @@ exports[`snapshots Video youtube 1`] = `
   </styled.div>
   <styled.div>
     214526
-  </styled.div>
-  <styled.div>
-    Y34fdvsf43
   </styled.div>
 </styled.article>
 `;
