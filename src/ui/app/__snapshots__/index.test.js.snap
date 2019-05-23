@@ -3,6 +3,7 @@
 exports[`snapshots renders correclty 1`] = `
 <Fragment>
   <GlobalStyleComponent />
+  <Menu />
   Video feed empty.
 </Fragment>
 `;
