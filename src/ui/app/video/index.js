@@ -11,8 +11,8 @@ const Video = ({
   title = '',
   type = 'video',
   source,
-  video = 'video unavailable',
-  views = 'no info',
+  video,
+  views,
 }) => (
   <Container>
     <Title>{ title }</Title>
@@ -30,10 +30,7 @@ Video.propTypes = {
     'url', 'youtube', 'facebook',
   ]).isRequired,
   video: PropTypes.string,
-  views: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
-  ]),
+  views: PropTypes.number,
 };
 
 export default Video;

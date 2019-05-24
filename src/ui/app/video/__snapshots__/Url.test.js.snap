@@ -24,7 +24,7 @@ exports[`snapshots Title 1`] = `
             },
           ],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
+            "componentId": "sc-bwzfXH",
             "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
@@ -36,7 +36,7 @@ exports[`snapshots Title 1`] = `
           "displayName": "styled.video",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
+          "styledComponentId": "sc-bwzfXH",
           "target": "video",
           "toString": [Function],
           "warnTooManyClasses": [Function],

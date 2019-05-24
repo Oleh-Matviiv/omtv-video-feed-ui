@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Div 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [
+        Object {
+          "className": "video-play",
+        },
+      ],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  grid-area: play;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding: 7rem 0;
+  color: #b4bbc1;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  children
+</StyledComponent>
+`;
+
+exports[`snapshots Missing 1`] = `
+<styled.div>
+  :/ video is missing
+</styled.div>
+`;

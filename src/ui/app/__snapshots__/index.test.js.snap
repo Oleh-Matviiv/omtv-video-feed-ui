@@ -16,6 +16,10 @@ exports[`snapshots renders correclty 1`] = `
       video="http://cdn.playbuzz.com/content/feed/video-1.mp4"
       views={432144}
     />
+    <Video
+      source="url"
+      title="Be a winner!"
+    />
   </Videos>
 </Fragment>
 `;
