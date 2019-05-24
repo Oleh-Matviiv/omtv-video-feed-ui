@@ -32,6 +32,12 @@ const App = () => (
         video="tw4jkyfY4HE"
         views={25560867}
       />
+      <Video
+        title="How to prepare a great beer"
+        source="facebook"
+        video="1052114818157758"
+        views={4569654}
+      />
     </Videos>
   </>
 );

@@ -7,6 +7,7 @@ import Title from './Title';
 import Views from './Views';
 import Url from './Url';
 import Youtube from './Youtube';
+import Facebook from './Facebook';
 
 const Video = ({
   title = '',
@@ -20,6 +21,7 @@ const Video = ({
     <Views count={ views } />
     { source === "url" && <Url src={ video } /> }
     { source === "youtube" && <Youtube id={ video } /> }
+    { source === "facebook" && <Facebook id={ video } /> }
   </Container>
 );
 

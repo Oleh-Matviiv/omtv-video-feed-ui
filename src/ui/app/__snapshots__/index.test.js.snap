@@ -26,6 +26,12 @@ exports[`snapshots renders correclty 1`] = `
       video="tw4jkyfY4HE"
       views={25560867}
     />
+    <Video
+      source="facebook"
+      title="How to prepare a great beer"
+      video="1052114818157758"
+      views={4569654}
+    />
   </Videos>
 </Fragment>
 `;

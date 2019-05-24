@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Facebook 1`] = `
+<styled.iframe
+  height="400px"
+  src="https://www.facebook.com/video/embed?video_id=tgbNymZ7vqY"
+  width="100%"
+/>
+`;
+
+exports[`snapshots Play 1`] = `
+.c0 {
+  grid-area: play;
+}
+
+<styled.iframe
+  src="http://g.com/1.mp4"
+  width="200px"
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [
+          Object {
+            "className": "video-play-facebook",
+          },
+        ],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  grid-area: play;
+",
+          ],
+        },
+        "displayName": "styled.iframe",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "iframe",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    src="http://g.com/1.mp4"
+    width="200px"
+  >
+    <iframe
+      className="video-play-facebook c0"
+      src="http://g.com/1.mp4"
+      width="200px"
+    >
+      children
+    </iframe>
+  </StyledComponent>
+</styled.iframe>
+`;

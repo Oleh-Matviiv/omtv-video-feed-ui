@@ -8,6 +8,9 @@ exports[`snapshots Video facebook 1`] = `
   <Views
     count={56789}
   />
+  <Facebook
+    id="F34fdvsf43"
+  />
 </styled.article>
 `;
 
