@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshots Views 1`] = `
+exports[`snapshots Div 1`] = `
 .c0 {
   padding: 1rem;
   grid-area: views;
@@ -44,8 +44,16 @@ exports[`snapshots Views 1`] = `
     <div
       className="video-views c0"
     >
-      2345
+      children
     </div>
   </StyledComponent>
+</styled.div>
+`;
+
+exports[`snapshots Views - count undefined 1`] = `<styled.div />`;
+
+exports[`snapshots Views 1`] = `
+<styled.div>
+  2345 views
 </styled.div>
 `;

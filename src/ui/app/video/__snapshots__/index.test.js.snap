@@ -5,9 +5,9 @@ exports[`snapshots Video facebook 1`] = `
   <styled.div>
     facebook based video
   </styled.div>
-  <styled.div>
-    56789
-  </styled.div>
+  <Views
+    count={56789}
+  />
 </styled.article>
 `;
 
@@ -16,9 +16,9 @@ exports[`snapshots Video url 1`] = `
   <styled.div>
     url based video
   </styled.div>
-  <styled.div>
-    3445
-  </styled.div>
+  <Views
+    count={3445}
+  />
   <Url
     src="http://g.com/1.mp4"
   />
@@ -30,8 +30,8 @@ exports[`snapshots Video youtube 1`] = `
   <styled.div>
     youtube based video
   </styled.div>
-  <styled.div>
-    214526
-  </styled.div>
+  <Views
+    count={214526}
+  />
 </styled.article>
 `;

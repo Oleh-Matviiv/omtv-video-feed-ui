@@ -1,9 +1,10 @@
-[%] properly format number of views, show nothing if views is missing info
+[%] properly format number of views
 [-] play component for youtube video
 [-] play component for facebook video
 
 ----------------------------------------[done]---------------------------------
 
+[done] show nothing if views is missing info
 [done] play component for url based video
 [done] refactor video component
 [done] video item component

@@ -16,7 +16,7 @@ const Video = ({
 }) => (
   <Container>
     <Title>{ title }</Title>
-    <Views>{ views }</Views>
+    <Views count={ views } />
     { source === "url" && (
       <Url src={ video } />
     ) }

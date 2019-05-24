@@ -1,13 +1,27 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import 'jest-styled-components';
 
-import Views from './Views';
+import Views, { Div } from './Views';
 
 describe('snapshots', () => {
-  it('Views', () => {
+  it('Div', () => {
     const wrapper = mount(
-      <Views>2345</Views>
+      <Div>children</Div>
+    );
+
+    expect(wrapper).toMatchSnapshot();
+  });
+  it('Views', () => {
+    const wrapper = shallow(
+      <Views count={ 2345 } />
+    );
+
+    expect(wrapper).toMatchSnapshot();
+  });
+  it('Views - count undefined', () => {
+    const wrapper = shallow(
+      <Views />
     );
 
     expect(wrapper).toMatchSnapshot();

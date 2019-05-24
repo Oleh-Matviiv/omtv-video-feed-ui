@@ -16,6 +16,12 @@ const App = () => (
         source="url"
         video="http://cdn.playbuzz.com/content/feed/video-1.mp4"
       />
+      <Video
+        title="Be a winner!"
+        source="url"
+        video="http://cdn.playbuzz.com/content/feed/video-1.mp4"
+        views={432144}
+      />
     </Videos>
   </>
 );
