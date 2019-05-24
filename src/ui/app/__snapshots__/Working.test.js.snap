@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Div 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  width: 100%;
+  display: flex;
+  justify-content: center;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  children
+</StyledComponent>
+`;
+
+exports[`snapshots Working - loading 1`] = `
+<styled.div>
+  loading videos...
+</styled.div>
+`;
+
+exports[`snapshots Working - possibly error has happened 1`] = `
+<styled.div>
+  failed to load videos
+</styled.div>
+`;

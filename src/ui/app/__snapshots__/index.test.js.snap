@@ -5,32 +5,8 @@ exports[`snapshots renders correclty 1`] = `
   <GlobalStyleComponent />
   <Menu />
   <Videos>
-    <Video
-      source="url"
-      title="Be a winner!"
-      video="http://cdn.playbuzz.com/content/feed/video-1.mp4"
-    />
-    <Video
-      source="url"
-      title="Be a winner!"
-      video="http://cdn.playbuzz.com/content/feed/video-1.mp4"
-      views={432144}
-    />
-    <Video
-      source="url"
-      title="Be a winner!"
-    />
-    <Video
-      source="youtube"
-      title="Top 10 fastest cars in the world"
-      video="tw4jkyfY4HE"
-      views={25560867}
-    />
-    <Video
-      source="facebook"
-      title="How to prepare a great beer"
-      video="1052114818157758"
-      views={4569654}
+    <Working
+      loading={true}
     />
   </Videos>
 </Fragment>

@@ -1,7 +1,7 @@
-[%] retrieve videos list from endpoint
 
 ----------------------------------------[done]---------------------------------
 
+[done] fetch videos list from endpoint
 [done] play component for facebook video
 [done] play component for youtube video
 [done] handle lack of data for Url component
