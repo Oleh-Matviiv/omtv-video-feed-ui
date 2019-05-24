@@ -1,9 +1,10 @@
-[%] properly format number of views
+[%] handle lack of data for Url component
 [-] play component for youtube video
 [-] play component for facebook video
 
 ----------------------------------------[done]---------------------------------
 
+[done] properly format number of views
 [done] show nothing if views is missing info
 [done] play component for url based video
 [done] refactor video component

@@ -54,6 +54,6 @@ exports[`snapshots Views - count undefined 1`] = `<styled.div />`;
 
 exports[`snapshots Views 1`] = `
 <styled.div>
-  2345 views
+  2.3K views
 </styled.div>
 `;
