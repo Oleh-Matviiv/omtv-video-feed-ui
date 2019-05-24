@@ -2,19 +2,19 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 import 'jest-styled-components';
 
-import Url, { Play } from './Url';
+import Youtube, { Play } from './Youtube';
 
 describe('snapshots', () => {
-  it('Url', () => {
+  it('Youtube', () => {
     const wrapper = shallow(
-      <Url src="http://g.com/1.mp4" />
+      <Youtube id="tgbNymZ7vqY" />
     );
 
     expect(wrapper).toMatchSnapshot();
   });
   it('Play', () => {
     const wrapper = mount(
-      <Play width="200px" src="http://g.com/1.mp4" controls>
+      <Play width="200px" src="http://g.com/1.mp4">
         children
       </Play>
     );

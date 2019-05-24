@@ -33,5 +33,8 @@ exports[`snapshots Video youtube 1`] = `
   <Views
     count={214526}
   />
+  <Youtube
+    id="Y34fdvsf43"
+  />
 </styled.article>
 `;

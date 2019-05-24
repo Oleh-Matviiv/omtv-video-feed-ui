@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const Div = styled.div.attrs({
-  className: 'video-play',
+  className: 'video-missing',
 })`
   grid-area: play;
   background: #fafafa;

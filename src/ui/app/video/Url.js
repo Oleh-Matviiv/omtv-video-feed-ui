@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 import Missing from './Missing';
 
-const Play = styled.video.attrs({
-  className: 'video-play',
+export const Play = styled.video.attrs({
+  className: 'video-play-url',
 })`
   grid-area: play;
 `;

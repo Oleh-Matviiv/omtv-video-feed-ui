@@ -5,19 +5,17 @@ exports[`snapshots Play 1`] = `
   grid-area: play;
 }
 
-<styled.video
-  controls={true}
+<styled.iframe
   src="http://g.com/1.mp4"
   width="200px"
 >
   <StyledComponent
-    controls={true}
     forwardedComponent={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [
           Object {
-            "className": "video-play-url",
+            "className": "video-play-youtube",
           },
         ],
         "componentStyle": ComponentStyle {
@@ -30,11 +28,11 @@ exports[`snapshots Play 1`] = `
 ",
           ],
         },
-        "displayName": "styled.video",
+        "displayName": "styled.iframe",
         "foldedComponentIds": Array [],
         "render": [Function],
         "styledComponentId": "sc-bwzfXH",
-        "target": "video",
+        "target": "iframe",
         "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
@@ -44,24 +42,21 @@ exports[`snapshots Play 1`] = `
     src="http://g.com/1.mp4"
     width="200px"
   >
-    <video
-      className="video-play-url c0"
-      controls={true}
+    <iframe
+      className="video-play-youtube c0"
       src="http://g.com/1.mp4"
       width="200px"
     >
       children
-    </video>
+    </iframe>
   </StyledComponent>
-</styled.video>
+</styled.iframe>
 `;
 
-exports[`snapshots Url 1`] = `
-<styled.video
-  controls={true}
-  src="http://g.com/1.mp4"
+exports[`snapshots Youtube 1`] = `
+<styled.iframe
+  height="400px"
+  src="https://www.youtube.com/embed/tgbNymZ7vqY"
   width="100%"
->
-  Your browser doesn't support HTML5 video.
-</styled.video>
+/>
 `;

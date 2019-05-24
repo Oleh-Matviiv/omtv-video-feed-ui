@@ -20,6 +20,12 @@ exports[`snapshots renders correclty 1`] = `
       source="url"
       title="Be a winner!"
     />
+    <Video
+      source="youtube"
+      title="Top 10 fastest cars in the world"
+      video="tw4jkyfY4HE"
+      views={25560867}
+    />
   </Videos>
 </Fragment>
 `;

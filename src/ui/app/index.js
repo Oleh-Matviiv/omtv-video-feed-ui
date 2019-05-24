@@ -26,6 +26,12 @@ const App = () => (
         title="Be a winner!"
         source="url"
       />
+      <Video
+        title="Top 10 fastest cars in the world"
+        source="youtube"
+        video="tw4jkyfY4HE"
+        views={25560867}
+      />
     </Videos>
   </>
 );

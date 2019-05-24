@@ -7,7 +7,7 @@ exports[`snapshots Div 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [
         Object {
-          "className": "video-play",
+          "className": "video-missing",
         },
       ],
       "componentStyle": ComponentStyle {
