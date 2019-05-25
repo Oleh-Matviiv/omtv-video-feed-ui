@@ -1,9 +1,8 @@
-[%] fetch videos from omtv-video-feed-service
-[-] filter by source (any<-default, url, youtube, facebook)
+[%] filter by source (any<-default, url, youtube, facebook)
 
 ----------------------------------------[done]---------------------------------
 
-[done] switch to prod service
+[done] fetch videos from omtv-video-feed-service
 [done] host a demo (mention it in README.md)
 [done] fetch videos list from endpoint
 [done] play component for facebook video
