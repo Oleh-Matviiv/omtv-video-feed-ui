@@ -17,9 +17,9 @@ const App = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          'https://cdn.playbuzz.com/content/feed/resources'
+          'http://video-feed.matviiv.com:3000/videos'
         );
-        setVideos(response.data.items);
+        setVideos(response.data);
       }
       catch(error) { console.log(error); }
       finally { setLoading(false); };
