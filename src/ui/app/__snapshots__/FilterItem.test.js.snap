@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Div 1`] = `
+.c0 {
+  padding: .5rem;
+  margin: 1rem .5rem 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: none;
+}
+
+<styled.div
+  selected={false}
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [
+          Object {
+            "className": "filter-item",
+          },
+        ],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  padding: .5rem;
+  margin: 1rem .5rem 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: ",
+            [Function],
+            ";
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    selected={false}
+  >
+    <div
+      className="filter-item c0"
+      selected={false}
+    >
+      facebook
+    </div>
+  </StyledComponent>
+</styled.div>
+`;
+
+exports[`snapshots Div selected 1`] = `
+.c0 {
+  padding: .5rem;
+  margin: 1rem .5rem 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #eee;
+}
+
+<styled.div
+  selected={true}
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [
+          Object {
+            "className": "filter-item",
+          },
+        ],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  padding: .5rem;
+  margin: 1rem .5rem 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: ",
+            [Function],
+            ";
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    selected={true}
+  >
+    <div
+      className="filter-item c0"
+      selected={true}
+    >
+      any
+    </div>
+  </StyledComponent>
+</styled.div>
+`;
+
+exports[`snapshots FilterItem 1`] = `
+<styled.div
+  onClick={[MockFunction]}
+  selected={false}
+  value="facebook"
+>
+  facebook
+</styled.div>
+`;

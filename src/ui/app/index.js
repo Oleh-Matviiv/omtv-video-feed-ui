@@ -11,26 +11,30 @@ import Working from './Working';
 const App = () => {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [filter, setFilter] = useState('any');
 
   useEffect(() => {
     const getVideos = async () => {
+      const url = filter
+      ? `http://video-feed.matviiv.com:3000/videos?filter=${filter}`
+      : 'http://video-feed.matviiv.com:3000/videos';
       try {
         setLoading(true);
-        const response = await axios.get(
-          'http://video-feed.matviiv.com:3000/videos'
-        );
+        const response = await axios.get(url);
         setVideos(response.data);
       }
       catch(error) { console.log(error); }
       finally { setLoading(false); };
     };
     getVideos();
-  }, []);
+  }, [filter]);
+
+  const handleFilterChange = e => setFilter(e.target.getAttribute('value'));
 
   return (
     <>
       <GlobalStyle />
-      <Menu />
+      <Menu filter={filter} handleFilterChange={handleFilterChange} />
       <Videos>{
         videos.length > 0 ? videos.map((v, i) => {
           const props = {

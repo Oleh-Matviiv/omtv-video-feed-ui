@@ -1,65 +1,153 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshots renders correclty 1`] = `
+exports[`snapshots Filters 1`] = `
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+<styled.div>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [
+          Object {
+            "className": "filters",
+          },
+        ],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-htpNat",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  display: flex;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-htpNat",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <div
+      className="filters c0"
+    >
+      filters here
+    </div>
+  </StyledComponent>
+</styled.div>
+`;
+
+exports[`snapshots Menu 1`] = `
+<styled.nav>
+  VIDEO FEED
+  <styled.div>
+    <FilterItem
+      filter="any"
+      handleFilterChange={[MockFunction]}
+      key="any"
+      selected={false}
+    />
+    <FilterItem
+      filter="facebook"
+      handleFilterChange={[MockFunction]}
+      key="facebook"
+      selected={false}
+    />
+    <FilterItem
+      filter="youtube"
+      handleFilterChange={[MockFunction]}
+      key="youtube"
+      selected={true}
+    />
+    <FilterItem
+      filter="url"
+      handleFilterChange={[MockFunction]}
+      key="url"
+      selected={false}
+    />
+  </styled.div>
+</styled.nav>
+`;
+
+exports[`snapshots Nav 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #fafafa;
   color: #b4bbc1;
   padding: 1rem;
   border-bottom: .1rem solid #efefef;
 }
 
-<Menu>
-  <styled.nav>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "className": "menu",
-            },
-          ],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": true,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
+<styled.nav>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [
+          Object {
+            "className": "menu",
+          },
+        ],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #fafafa;
   color: #b4bbc1;
   padding: 1rem;
   border-bottom: .1rem solid #efefef;
 ",
-            ],
-          },
-          "displayName": "styled.nav",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "nav",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
+          ],
+        },
+        "displayName": "styled.nav",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "nav",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
       }
-      forwardedRef={null}
+    }
+    forwardedRef={null}
+  >
+    <nav
+      className="menu c0"
     >
-      <nav
-        className="menu c0"
-      >
-        VIDEO FEED
-      </nav>
-    </StyledComponent>
-  </styled.nav>
-</Menu>
+      children
+    </nav>
+  </StyledComponent>
+</styled.nav>
 `;

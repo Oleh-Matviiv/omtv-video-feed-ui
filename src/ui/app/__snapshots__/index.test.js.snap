@@ -3,7 +3,10 @@
 exports[`snapshots renders correclty 1`] = `
 <Fragment>
   <GlobalStyleComponent />
-  <Menu />
+  <Menu
+    filter="any"
+    handleFilterChange={[Function]}
+  />
   <Videos>
     <Working
       loading={true}

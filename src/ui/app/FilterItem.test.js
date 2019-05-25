@@ -2,30 +2,30 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 import 'jest-styled-components';
 
-import Menu, { Nav, Filters } from './Menu';
+import FilterItem, { Div } from './FilterItem';
 
 describe('snapshots', () => {
-  it('Menu', () => {
+  it('FilterItem', () => {
     const wrapper = shallow(
-      <Menu
-        filter="youtube"
+      <FilterItem
+        filter="facebook"
         handleFilterChange={jest.fn()}
-      >menu itesm</Menu>
+        selected={false}
+      />
     );
 
     expect(wrapper).toMatchSnapshot();
   });
-
-  it('Nav', () => {
+  it('Div', () => {
     const wrapper = mount(
-      <Nav>children</Nav>
+      <Div selected={false}>facebook</Div>
     );
 
     expect(wrapper).toMatchSnapshot();
   });
-  it('Filters', () => {
+  it('Div selected', () => {
     const wrapper = mount(
-      <Filters>filters here</Filters>
+      <Div selected={true}>any</Div>
     );
 
     expect(wrapper).toMatchSnapshot();
