@@ -1,4 +1,5 @@
-Video Feed - is simply a list of videos from different sources.
+[video-feed.matviiv.com](http://video-feed.matviiv.com)
+ - is simply a list of videos from different sources.
 
 # Start it in dev mode
 Clone it and run:

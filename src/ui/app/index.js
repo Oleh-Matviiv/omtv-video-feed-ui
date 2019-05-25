@@ -32,13 +32,13 @@ const App = () => {
       <GlobalStyle />
       <Menu />
       <Videos>{
-        videos.length > 0 ? videos.map(v => {
+        videos.length > 0 ? videos.map((v, i) => {
           const props = {
             ...v,
             video: v.videoId || v.url
           };
 
-          return <Video {...props} />;
+          return <Video {...props} key={i} />;
         }) : <Working loading={loading} />
       }</Videos>
     </>
